@@ -1,0 +1,80 @@
+<svg width="448" height="54" viewBox="0 0 448 54" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect opacity="0.3" x="1" y="37" width="207.838" height="1" fill="#D9D9D9"/>
+<circle cx="208.22" cy="38.0002" r="0.926476" fill="#D9D9D9"/>
+<circle cx="1.92647" cy="38.0002" r="0.926471" fill="#D9D9D9"/>
+<rect opacity="0.3" x="1" y="47" width="438.44" height="1" fill="#D9D9D9"/>
+<circle cx="438.137" cy="47.9998" r="1.95442" fill="#D9D9D9"/>
+<circle cx="2.95441" cy="47.9998" r="1.95441" fill="#D9D9D9"/>
+<rect opacity="0.3" x="73" y="47" width="192.003" height="1" fill="#D9D9D9"/>
+<circle cx="264.432" cy="47.9999" r="0.855881" fill="#D9D9D9"/>
+<circle cx="73.8559" cy="47.9999" r="0.855882" fill="#D9D9D9"/>
+<rect x="1" y="3" width="210" height="3" fill="white"/>
+<path d="M211 26H1V9H211V26ZM141.615 13.3604L139.012 16.4678H141.088L141.771 15.6279V22H143.355V13.3604H141.615ZM152.651 13.3604L147.119 18.3516V19.8281H152.556V22H154.127V19.8281H155.339V18.2441H154.127V13.3604H152.651ZM161.513 13.3604C161.209 13.3604 160.933 13.4396 160.685 13.5996C160.437 13.7516 160.237 13.9559 160.085 14.2119C159.933 14.4599 159.856 14.7398 159.856 15.0518V20.2715C159.856 20.5675 159.933 20.8483 160.085 21.1123C160.237 21.376 160.437 21.5919 160.685 21.7598C160.933 21.9197 161.209 22 161.513 22H166.757C167.061 22 167.337 21.9198 167.585 21.7598C167.833 21.5919 168.033 21.3761 168.185 21.1123C168.337 20.8483 168.413 20.5675 168.413 20.2715V15.0518C168.413 14.7398 168.337 14.4599 168.185 14.2119C168.033 13.956 167.833 13.7516 167.585 13.5996C167.337 13.4396 167.061 13.3604 166.757 13.3604H161.513ZM173.225 13.3604V18.3877H180.064C180.104 18.3877 180.137 18.4035 180.161 18.4355C180.193 18.4595 180.209 18.4923 180.209 18.5322V20.2842C180.209 20.3239 180.193 20.3598 180.161 20.3916C180.137 20.4156 180.104 20.4277 180.064 20.4277H174.94C174.901 20.4277 174.865 20.4155 174.833 20.3916C174.809 20.3597 174.797 20.3241 174.797 20.2842V19.7803H173.225V20.3438C173.225 20.6478 173.301 20.9239 173.453 21.1719C173.605 21.4197 173.805 21.6195 174.053 21.7715C174.301 21.9235 174.577 22 174.881 22H180.125C180.429 21.9999 180.705 21.9234 180.953 21.7715C181.201 21.6195 181.401 21.4197 181.553 21.1719C181.705 20.9239 181.78 20.6477 181.78 20.3438V18.46C181.78 18.156 181.705 17.8798 181.553 17.6318C181.409 17.376 181.209 17.1762 180.953 17.0322C180.705 16.8803 180.429 16.8038 180.125 16.8037H174.94C174.901 16.8037 174.865 16.7915 174.833 16.7676C174.809 16.7357 174.797 16.7 174.797 16.6602V15.0762C174.797 15.0362 174.809 15.0035 174.833 14.9795C174.865 14.9478 174.901 14.9317 174.94 14.9316H181.78V13.3604H173.225ZM186.51 20.4277V22H188.082V20.4277H186.51ZM194.557 13.3604L191.952 16.4678H194.028L194.712 15.6279V22H196.296V13.3604H194.557ZM202.604 13.3604L200 16.4678H202.076L202.76 15.6279V22H204.344V13.3604H202.604ZM166.841 20.2002C166.841 20.24 166.825 20.2758 166.793 20.3076C166.769 20.3315 166.737 20.3437 166.697 20.3438H162.148L166.841 16.4316V20.2002ZM166.121 14.9678L161.429 18.8799V15.1123C161.429 15.0723 161.441 15.0396 161.465 15.0156C161.497 14.9837 161.533 14.9678 161.573 14.9678H166.121ZM152.556 18.2441H149.567L152.556 15.748V18.2441Z" fill="white"/>
+<rect opacity="0.5" x="223.5" y="3.5" width="215" height="5" stroke="#D9D9D9"/>
+<rect opacity="0.5" x="278" y="5" width="96" height="2" fill="#D9D9D9"/>
+<g id="Repeat group 3_inner" data-figma-trr="l31u3-0f">
+<rect x="211" y="31" width="1" height="2" transform="rotate(180 211 31)" fill="#D9D9D9"/>
+</g>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(3)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(6)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(9)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(12)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(15)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(18)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(21)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(24)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(27)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(30)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(33)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(36)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(39)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(42)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(45)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(48)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(51)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(54)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(57)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(60)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(63)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(66)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(69)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(72)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(75)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(78)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(81)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(84)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(87)"/>
+<use xlink:href="#Repeat%20group%203_inner" transform="translate(90)"/>
+<g id="Repeat group 4_inner" data-figma-trr="l6u18-0f">
+<rect x="211" y="33" width="1" height="4" transform="rotate(180 211 33)" fill="#D9D9D9"/>
+</g>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(18)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(36)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(54)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(72)"/>
+<use xlink:href="#Repeat%20group%204_inner" transform="translate(90)"/>
+<g id="Repeat group 5_inner" data-figma-trr="l3u0.5-0f">
+<rect x="224" y="15" width="1" height="4" transform="rotate(180 224 15)" fill="#D9D9D9"/>
+<rect x="237" y="15" width="1" height="4" transform="rotate(180 237 15)" fill="#D9D9D9"/>
+<rect x="227" y="15" width="2" height="4" transform="rotate(180 227 15)" fill="#D9D9D9"/>
+<rect x="229" y="15" width="1" height="4" transform="rotate(180 229 15)" fill="#D9D9D9"/>
+</g>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(7)"/>
+<use xlink:href="#Repeat%20group%205_inner" transform="translate(14)"/>
+<g id="Repeat group 6_inner" data-figma-trr="l3u1-0f">
+<rect x="233" y="22" width="1" height="4" transform="rotate(180 233 22)" fill="#D9D9D9"/>
+<rect x="246" y="22" width="1" height="4" transform="rotate(180 246 22)" fill="#D9D9D9"/>
+<rect x="236" y="22" width="2" height="4" transform="rotate(180 236 22)" fill="#D9D9D9"/>
+<rect x="238" y="22" width="1" height="4" transform="rotate(180 238 22)" fill="#D9D9D9"/>
+</g>
+<use xlink:href="#Repeat%20group%206_inner" transform="translate(14)"/>
+<use xlink:href="#Repeat%20group%206_inner" transform="translate(28)"/>
+<g id="Repeat group 7_inner" data-figma-trr="l3u1-0f">
+<rect x="224" y="22" width="1" height="4" transform="rotate(180 224 22)" fill="#D9D9D9"/>
+<rect x="237" y="22" width="1" height="4" transform="rotate(180 237 22)" fill="#D9D9D9"/>
+<rect x="227" y="22" width="2" height="4" transform="rotate(180 227 22)" fill="#D9D9D9"/>
+<rect x="229" y="22" width="1" height="4" transform="rotate(180 229 22)" fill="#D9D9D9"/>
+</g>
+<use xlink:href="#Repeat%20group%207_inner" transform="translate(14)"/>
+<use xlink:href="#Repeat%20group%207_inner" transform="translate(28)"/>
+</svg>
