@@ -1,16 +1,16 @@
 const layoutScripts = {
-  'layout-one': './js/layout-one.js',
-  'layout-two': './js/layout-two.js',
-  'layout-three': './js/layout-three.js',
-  'layout-four': './js/layout-four.js',
-  'layout-img-side-by-side': './js/layout-img-side-by-side.js',
-  'layout-text-right': './js/layout-text-right.js',      
-  'layout-text-left': './js/layout-text-left.js',  
-  'layout-text-left-image': './js/layout-text-left-image.js', 
-  'layout-big-image-left-2image': './js/layout-big-image-left-2image.js',
-  'layout-big-image-right-2image': './js/layout-big-image-right-2image.js',  
-  'layout-2up-image': './js/layout-2up-image.js' ,
-  'layout-Hud4':'./js/layout-hud4.js'
+  'layout-one': './layout-one.js',
+  'layout-two': './layout-two.js',
+  'layout-three': './layout-three.js',
+  'layout-four': './layout-four.js',
+  'layout-img-side-by-side': './layout-img-side-by-side.js',
+  'layout-text-right': './layout-text-right.js',      
+  'layout-text-left': './layout-text-left.js',  
+  'layout-text-left-image': './layout-text-left-image.js', 
+  'layout-big-image-left-2image': './layout-big-image-left-2image.js',
+  'layout-big-image-right-2image': './layout-big-image-right-2image.js',  
+  'layout-2up-image': './layout-2up-image.js' ,
+  'layout-Hud4':'./layout-hud4.js'
     
 };
 
