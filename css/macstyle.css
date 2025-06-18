@@ -22,6 +22,17 @@ html {
 
 }
 
+
+body{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.3px;
+    
+    
+}
+
+
+
+
 .vignette:before {
     content: "";
     width: 100%;
@@ -34,10 +45,12 @@ html {
 }
 
 
-
-.section-h {
-    height: 85vh !important;
+.imageStrip {
+    
+    height:400px;
+    overflow:hidden;
 }
+
 
 .bigText{
 
@@ -54,36 +67,108 @@ html {
 }
 
 
+.section-h {
+    height: 65vh !important;
+}
+
+
+.mr-neg{
+    margin-right: -50px;
+    
+}
+.ml-neg{
+    margin-left: -50px;
+    
+}
+
+.macComp:before {
+    content: "";
+    background: url(../img/Decaltest.svg);
+    width: 640px;
+    height: 72px;
+    display: block;
+    opacity: .1;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.macComp.white:before{
+
+    transform: scaleX(-2.5);
+    opacity: .3;
+}
+
+
 
 .macComp {
     padding: 50px;
 	background: var(--primary);
 	color:var(--text-colour-inverse);
-	padding-top:115px;
-    padding-bottom:115px;
+	padding-top:50px;
+    padding-bottom:50px;
     overflow: hidden;
+}
+
+.thin {
+    padding: 25px;
+	padding-top:30px;
+    padding-bottom:30px;
 }
 
 
 @media only screen and (min-width: 576px) {
   .macComp {
-      padding:100px;
+        padding:100px;
+        padding-top:115px;
+        padding-bottom:115px;
+    }
+    
+    body{
+        letter-spacing: -1px;
     }
     
     .bigText{
-
         font-size: 3rem;
+    }
+    
+     .mr-neg{
+        margin-right: -100px;
 
+    }
+    .ml-neg{
+        margin-left: -100px;
+
+    }
+    
+    .thin {
+        padding: 70px;
+        padding-top:60px;
+        padding-bottom:60px;
+    }
+    
+    .imageStrip {
+    
+        height:33vh;
+        overflow:hidden;
     }
 
 }
 
 @media only screen and (min-width: 768px) {
+.section-h {
+    height: 85vh !important;
+}
     
     .bigText{
 
         font-size: 3.0rem;
 
+    }
+    
+     .imageStrip {
+    
+        height:40vh;
+        overflow:hidden;
     }
 
 }
@@ -96,6 +181,12 @@ html {
         font-size: 3.5rem;
 
     }
+    
+     .imageStrip {
+    
+        height:60vh;
+        overflow:hidden;
+    }
 
 }
 
@@ -106,27 +197,22 @@ html {
         font-size: 4.5rem;
 
     }
-
-}
-
-
-
-
-
-.mr-neg{
-    margin-right: -100px
     
-}
-.ml-neg{
-    margin-left: -100px
+     .imageStrip {
     
+        height:75vh;
+        overflow:hidden;
+    }
+
 }
 
-.thin {
-    padding: 70px;
-	padding-top:60px;
-    padding-bottom:60px;
-}
+
+
+
+
+
+
+
 
 .macComp.white  {
 	background: var(--text-colour-inverse);
@@ -150,11 +236,6 @@ html {
 	
 	
 } 
-
-body{
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -1px;
-}
 
 
 h1, h2, h3, h4, h5, h6,
@@ -409,3 +490,29 @@ span.decal {
       0 0 30px #ff5f00;
   }
 }
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating360 {
+  animation: rotate360 30s linear infinite;
+  transform-origin: center;
+}
+
+
