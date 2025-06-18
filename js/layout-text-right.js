@@ -1,0 +1,32 @@
+import { parseSharedSlotsDynamic } from '/js/slotParser.js';
+
+class LayoutTextRight extends HTMLElement {
+  connectedCallback() {
+    const $this = $(this);
+    const { 
+          colour, 
+          title, 
+          text, 
+          bullet1, 
+          bullet1content,
+          bullet2, 
+          bullet2content,
+          bullet3, 
+          bullet3content,
+          bullet4, 
+          bullet4content
+    } = parseSharedSlotsDynamic($this);
+      
+      this.innerHTML = ``
+      this.innerHTML = `
+      <div class=" macComp ${colour}">
+        <div class="row align-items-center section-h">
+          <div class="col-9 col-sm-7  ms-auto text-end mb-3 ">
+            <div class="parallax" data-overflow="true" data-orientation="right"><slot name="text">${text}</slot></div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+}
+customElements.define('layout-text-right', LayoutTextRight);

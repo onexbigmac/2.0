@@ -1,0 +1,411 @@
+col-sm-6col-sm-6col-sm-6@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+  scroll-behavior: auto;
+}
+
+
+:root {
+	--primary:#23293C;
+	--secondary:#700002;
+	--text-colour:#191919;
+	--text-colour-inverse:#FFFFFF;
+    --text-colour-lighter:#939598;
+    
+    --grey:#E9E9E9;
+    
+    --redDark:#27000014;
+    --transparent:transparent;
+    --redLight:#27000014;
+
+}
+
+.vignette:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(100% 100% at 50% 100%, transparent, transparent 60%, black 110%);
+}
+
+.vignette {
+    position: relative;
+}
+
+
+
+.section-h {
+    height: 85vh !important;
+}
+
+.bigText{
+
+    font-size: 2.5rem;
+    letter-spacing: -4px;
+    line-height: 1.2;
+
+}
+
+
+.img-fluid-inv {
+    max-height: 100%;
+    letter-spacing: -2px;
+}
+
+
+
+.macComp {
+    padding: 50px;
+	background: var(--primary);
+	color:var(--text-colour-inverse);
+	padding-top:115px;
+    padding-bottom:115px;
+    overflow: hidden;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .macComp {
+      padding:100px;
+    }
+    
+    .bigText{
+
+        font-size: 3rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .bigText{
+
+        font-size: 3.0rem;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+    
+    .bigText{
+
+        font-size: 3.5rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .bigText{
+
+        font-size: 4.5rem;
+
+    }
+
+}
+
+
+
+
+
+.mr-neg{
+    margin-right: -100px
+    
+}
+.ml-neg{
+    margin-left: -100px
+    
+}
+
+.thin {
+    padding: 70px;
+	padding-top:60px;
+    padding-bottom:60px;
+}
+
+.macComp.white  {
+	background: var(--text-colour-inverse);
+	color:var(--primary);
+}
+
+.macComp.red  {
+	background: var(--secondary);
+	color:var(--text-colour-inverse);
+}
+
+.macComp.grey  {
+	background: var(--grey);
+	color:#454545; /*var(--primary);*/
+}
+
+
+.macCom-sm {
+	padding-top:95px;
+    padding-bottom:95px;
+	
+	
+} 
+
+body{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -1px;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+
+  letter-spacing: -2px;
+}
+
+
+.logo {
+    color:var(--secondary);
+}
+
+.subHeading {
+    font-family: sans-serif;
+    color: var(--text-colour-lighter);
+    letter-spacing: 3px;
+    font-size: 8px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding-bottom: 5px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+
+:root {
+--svg-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E\
+%3Ctext x='0' y='10' font-size='10' fill='rgba(255%2C0%2C0%2C0.15)' font-family=''%3E%E2%95%8B%3C/text%3E\
+%3C/svg%3E");
+
+     --offsetBR:-3px -3px; 
+     --offsetTL:2px 3px;    
+    --innerColorBR:#ff000052;
+    --innerColorTL:#ff000052; 
+
+}
+
+
+.macDark {
+    background: #140101;
+    background-image: var(--svg-pattern);
+    background-repeat: repeat;
+}
+
+
+
+.Hud {
+    border: 0px solid #841416;
+    border-radius: 16px;
+    padding: 6px;
+    box-shadow: inset 0px 0px 40px #7a090b2e, inset 1px 1px var(--innerColorBR), inset -1px 0px var(--innerColorTL);
+    position: relative;
+    background: linear-gradient(#53010242 10%, #2e020300 50%, #53010261);
+    color: #ff0007;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+    font-size: 12px;
+    font-family: monospace;
+    text-shadow: 0 -9px 14px #ff0007;
+    
+}
+
+span.decal {
+    background: linear-gradient(90deg, #ff0007, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+    
+.Hud {
+  list-style: none;
+  counter-reset: list-item;
+}
+
+.Hud li {
+  counter-increment: list-item;
+}
+
+.Hud li::marker {
+  content: "[[" counter(list-item) "]] ";
+}
+
+.Hud li:nth-child(-n+9)::marker {
+  content: "[[00" counter(list-item) "]] ";
+}
+
+
+.HudInner::before,
+.HudInner::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.HudInner::before {
+  width: 100%;
+  height: 100px;
+  background: radial-gradient(at 50% 0%, #a2011b, #ff000500 50% 73%);
+  top: 0;
+}
+
+.HudInner::after {
+  width: 160%;
+  height: 100px;
+  background: radial-gradient(at 50% 100%, #a2011ba1, #ff000500 50% 73%);
+  top: 0;
+  transform: translate(-50%, -70px);
+  opacity: 1;
+}
+
+.HudInner {
+    border-radius: 16px;
+}
+
+
+:root {
+ 
+    --col1:rgb(255 0 0 / 50%);
+    --col2:rgb(137 0 0 / 30%); 
+	 --colT:rgba((0, 0, 0 , 0.3))
+
+}
+
+.Top {
+    margin: -5px;
+    padding: 6px;
+    background: linear-gradient(140deg, 
+        var(--col1) 15%, 
+        var(--col2) 20%, 
+        var(--col1) 50%, 
+        var(--col2), 
+        var(--col1) 
+        100% 101%);
+    box-shadow: inset 0px 16px 2px #ff00052b;
+    background-size: 200%;
+    background-position: var(--mouseXPercent) 0%; 
+
+
+    border-radius: 16px 16px 0 0;
+}
+	
+.cardDetailRounded{
+
+}
+    
+    .cardDetailT{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 6px;
+        top: 0px;
+        background: linear-gradient(90deg, transparent 0%, transparent, red, red 50%, transparent, red, transparent 95%);
+    }
+
+	.cardDetailL{
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(180deg, transparent 0%, red 24%, transparent);
+    }  
+
+	.cardDetailB{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        right: 6px;
+        bottom: 0px;
+        background: linear-gradient(90deg, transparent 10%, red 25%, transparent);
+    }
+    
+	.cardDetailR{
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        right: 0px;
+        bottom: 0px;
+        background: linear-gradient(180deg, transparent 0%, red 24%, transparent 95%);
+    }     
+
+    .HudInner .cardDetailRounded .cardDetailL{
+        background: linear-gradient(180deg, transparent 50%, red 64%, transparent, 95%);
+    }
+    
+    
+    .HudInner .cardDetailRounded .cardDetailR{
+        background: linear-gradient(180deg, transparent 0%, red 84%, transparent 96%);
+    }
+    
+    
+    
+    .HudInner .cardDetailRounded .cardDetailB{
+        background: linear-gradient(90deg, transparent 0%, red 84%, transparent 95%);
+    }
+
+
+    
+.cardDetailWave {
+        background-size: 200% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+                background: linear-gradient(-6deg, #6e010178, transparent, transparent 40%, #ff00001c 41%, #ff00003d, #0000004a);
+        
+        box-shadow: 7px 6px 6px #00000082;
+        border-radius: 16px;
+  pointer-events: none;
+    }
+
+.scroller {
+    z-index: 20;
+    position: relative;
+    margin-top: 75vh;
+}
+
+.fixer {
+    position: relative;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+}
+
+
+
+.glow-text {
+  position: relative;
+  color: rgba(255, 255, 255, 0);
+  text-shadow: 0 0 2px transparent, 0 0 10px transparent, 0 0 100px transparent;
+  animation: glow-in 1.5s ease-out 4s forwards;
+  left: -100px;
+ 
+}
+
+@keyframes glow-in {
+  to {
+    left:0px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 
+      0 0 2px #fef2a6, 
+      0 0 10px #ff9900, 
+      0 0 30px #ff5f00;
+  }
+}
