@@ -1,4 +1,4 @@
-import { parseSharedSlotsDynamic } from '/js/slotParser.js';
+import { parseSharedSlotsDynamic } from './slotParser.js';
 
 class Layout2UpImage extends HTMLElement {
   connectedCallback() {

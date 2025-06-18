@@ -1,6 +1,4 @@
-import {
-  parseSharedSlotsDynamic
-} from '/js/slotParser.js';
+import { parseSharedSlotsDynamic } from './slotParser.js';
 
 
 class LayoutImgSideBySide extends HTMLElement {

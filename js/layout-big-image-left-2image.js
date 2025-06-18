@@ -1,5 +1,4 @@
-import { parseSharedSlotsDynamic } from '/js/slotParser.js';
-
+import { parseSharedSlotsDynamic } from './slotParser.js';
 class LayoutBigImageLeft2Images extends HTMLElement {
   connectedCallback() {
     const $this = $(this);

@@ -1,4 +1,4 @@
-import { parseSharedSlotsDynamic } from '/js/slotParser.js';
+import { parseSharedSlotsDynamic } from './slotParser.js';
 
 class LayoutHud4 extends HTMLElement {
   connectedCallback() {
