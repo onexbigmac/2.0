@@ -26,7 +26,7 @@ class LayoutTextRight extends HTMLElement {
     width: 320px;"></div>
         </div>
         <div class="row align-items-center section-h">
-          <div class="col-9 col-sm-7  ms-auto text-end mb-3 ">
+          <div class="col-7 col-sm-9  ms-auto text-end mb-3 ">
             <div class="parallax" data-overflow="true" data-orientation="right"><slot name="text">${text}</slot></div>
           </div>
         </div>

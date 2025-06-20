@@ -18,12 +18,12 @@ class LayoutBigImageRight2Images extends HTMLElement {
             <div class=" macComp ${colour}">
               <div class="row align-items-center ">
 
-                <div class="col-5 col-sm-5 col-md-6  me-sm-auto ml-neg mb-3"> 
+                <div class="col-12 col-sm-5 col-md-6  me-sm-auto ml-neg mb-3 mx-neg-0"> 
 
 
                         <div class="row">
-                          <div class="col-12 col-sm-12 col-md-6 ms-auto mb-3 "> <div class="parallax" data-orientation="up" data-scale="1.3" data-delay="2">${img2Tag} </div></div>
-                          <div class="col-12 col-sm-12 col-md-6 ms-auto mb-3 "> <div class="parallax" data-orientation="up" data-scale="1.1" data-delay="4">${img3Tag} </div></div>
+                          <div class="col-6 col-sm-12 col-md-6 ms-auto mb-3 "> <div class="parallax" data-orientation="up" data-scale="1.3" data-delay="2">${img2Tag} </div></div>
+                          <div class="col-6 col-sm-12 col-md-6 ms-auto mb-3 "> <div class="parallax" data-orientation="up" data-scale="1.1" data-delay="4">${img3Tag} </div></div>
                         </div>
 
 
@@ -31,7 +31,7 @@ class LayoutBigImageRight2Images extends HTMLElement {
               </div>
 
 
-             <div class="col-11 col-sm-11 col-md-6  mr-neg  text-end mb-3">
+             <div class="col-12 col-sm-11 col-md-6  mr-neg  text-end mb-3">
                   <div> <div class="parallax" data-orientation="right" data-scale="0.9">${img1Tag} </div></div>
                 </div>
             </div>
