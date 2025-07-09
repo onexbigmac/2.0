@@ -300,8 +300,53 @@
       <span slot="bullet1">Contact us </span> 
       <span slot="bullet1content">Today</span> 
       <span slot="bullet2">!!!!</span> 
-      <span slot="bullet2content">082 555 5555</span> 
+      <span slot="bullet2content"><mailto:onexbigmac@gmail.com?Subject=Query from onexbigmac.com website>Get in touch </mailto:></span> 
  </layout-two>
+
+     <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h1 class="mb-4 text-center">Contact Us</h1>
+        
+        <form action="https://formspree.io/f/xldnyzrn" method="POST">
+          
+          <!-- Honeypot (hidden from users) -->
+          <div style="display: none;">
+            <input type="text" name="_gotcha">
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input 
+              type="email" 
+              class="form-control" 
+              id="email" 
+              name="email" 
+              required
+            >
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea 
+              class="form-control" 
+              id="message" 
+              name="message" 
+              rows="5" 
+              required
+            ></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit" class="btn btn-primary w-100">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
     
   <div id="mouse-vars" style="display:none;"></div>
     
