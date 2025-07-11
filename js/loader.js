@@ -131,7 +131,7 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
-animate();
+//animate();
 console.log('Mouse tracking with normalized and percentage CSS variables initialized via dynamic style tag');
 
 

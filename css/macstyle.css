@@ -13,6 +13,9 @@ html {
 	--text-colour:#191919;
 	--text-colour-inverse:#FFFFFF;
     --text-colour-lighter:#939598;
+    --text-colour-inverse-blue:#3f5088;
+    
+    --shadow-colour:rgb(35 41 60 / 30%);
     
     --grey:#E9E9E9;
     
@@ -23,15 +26,31 @@ html {
 }
 
 
-body{
-    font-family: 'Inter', sans-serif;
+body {
+
+    font-family: 'Manrope','Inter', Ropesans-serif;
+    
     letter-spacing: -0.3px;
-    
-    
 }
 
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  letter-spacing: -1px;
+    font-family:Inter;
 
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 ,
+.bigText {
+        
+     /*    font-family: 'Outfit', 'Inter', sans-serif;*/
+    /* font-family: 'Rethink Sans', 'Inter', sans-serif; */
+    font-family: 'Urbanist', 'Inter', sans-serif; 
+    /* font-family: 'Manrope', 'Inter', Ropesans-serif;*/
+    
+}
 
 .vignette:before {
     content: "";
@@ -47,9 +66,9 @@ body{
 
 .imageStrip {
     
-    height:200px;
+    height:150px;
     overflow:hidden;
-    width: 100%;
+
 }
 
 
@@ -100,11 +119,15 @@ body{
 }
 
 
+.macComp.white {	
+    color:var(--text-colour-inverse);
+}
+
 
 .macComp {
     padding: 50px;
 	background: var(--primary);
-	color:var(--text-colour-inverse);
+    color:var(--text-colour-inverse);
 	padding-top:50px;
     padding-bottom:50px;
     overflow: hidden;
@@ -134,9 +157,7 @@ body{
         padding-bottom:115px;
     }
     
-    body{
-        letter-spacing: -1px;
-    }
+
     
     .bigText{
         font-size: 3rem;
@@ -166,9 +187,18 @@ body{
 }
 
 @media only screen and (min-width: 768px) {
-.section-h {
-    height: 85vh !important;
-}
+    
+    
+
+    
+    
+    .section-h {
+        height: 50vh !important;
+    }
+    
+     body{
+        letter-spacing: -1px;
+    }
     
     .bigText{
 
@@ -187,6 +217,11 @@ body{
 
 @media only screen and (min-width: 992px) {
     
+    
+
+    
+    
+    
     .bigText{
 
         font-size: 3.5rem;
@@ -204,14 +239,12 @@ body{
 @media only screen and (min-width: 1200px) {
     
     .bigText{
-
-        font-size: 4.5rem;
-
+        font-size: 3.5rem;
     }
     
      .imageStrip {
     
-        height:75vh;
+        height:45vh;
         overflow:hidden;
     }
 
@@ -219,8 +252,19 @@ body{
 
 
 
+.imgHolder {
+    
+    box-shadow: #23293c4d 0px 30px 30px -10px;
+    width: fit-content;
+    
+}
 
-
+.imgHolder-sm {
+    
+    box-shadow: #23293c4d 0px 30px 30px -10px;
+    width: fit-content;
+    
+}
 
 
 
@@ -228,6 +272,15 @@ body{
 .macComp.white  {
 	background: var(--text-colour-inverse);
 	color:var(--primary);
+}
+
+.macComp .subHeading  {
+	color: var(--text-colour-lighter);;
+}
+
+
+.macComp.white .subHeading  {
+	color: var(--text-colour-lighter);;
 }
 
 .macComp.red  {
@@ -249,11 +302,7 @@ body{
 } 
 
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
 
-  letter-spacing: -2px;
-}
 
 
 .logo {
@@ -262,9 +311,9 @@ h1, h2, h3, h4, h5, h6,
 
 .subHeading {
     font-family: sans-serif;
-    color: var(--text-colour-lighter);
+    
     letter-spacing: 3px;
-    font-size: 8px;
+    font-size: 9px;
     text-transform: uppercase;
     line-height: 1.5;
     padding-bottom: 5px;
@@ -468,7 +517,11 @@ span.decal {
 .scroller {
     z-index: 20;
     position: relative;
-    margin-top: 75vh;
+    margin-top: 65vh;
+    margin-left:0px;
+    margin-right:0px;
+    background: #FFF;
+    
 }
 
 .fixer {
@@ -512,14 +565,6 @@ span.decal {
   }
 }
 
-@keyframes rotate360 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .rotating360 {
   animation: rotate360 30s linear infinite;
@@ -527,3 +572,58 @@ span.decal {
 }
 
 
+
+
+ .video-container {
+      position: relative;
+      overflow: hidden;
+     background:#0f1c3d;
+     background: linear-gradient(90deg, #0f1c3d, #01050c)
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 50%;
+      min-height: 50%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+    }
+
+    .video-content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+.container-fluid.video-container:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(90deg, #0f1c3d 25%, transparent 40%, transparent 70%, #030913 75%);
+}
+
+.container-fluid.video-container:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(0deg, #0f1c3d 0%, transparent 10%, transparent 70%, #0e1a3a);
+}
+
+.video-container .macComp:before {
+    display: none;
+}

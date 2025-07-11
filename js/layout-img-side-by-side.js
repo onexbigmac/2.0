@@ -29,12 +29,21 @@ class LayoutImgSideBySide extends HTMLElement {
                 <div class="row align-items-center text-center g-0">
 
                   <div class="col-6">
-                    <div class="parallax" data-orientation="right" data-scale="0.9">${img1Tag}</div>
-                    <div class="subHeading"> ...■ □ ▢ ▢ ▢ ▢ ▢</div>
+                   
+                 
+                        <div class="parallax" data-orientation="right" data-scale="0.9">${img1Tag}</div>
+
+                      
+                     <div class="subHeading"> ...■ □ ▢ ▢ ▢ ▢ ▢</div>
+                    
                   </div>
                   <div class="col-6">
-                    <div class="parallax" data-orientation="left" data-scale="0.9">${img2Tag}</div>
-<div class="subHeading">${text}</div>
+                    
+
+                        <div class="parallax" data-orientation="left" data-scale="0.9">${img2Tag}</div>
+
+                    <div class="subHeading">${text}</div>
+                    
                   </div>
 
                 </div>

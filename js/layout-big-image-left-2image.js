@@ -19,7 +19,9 @@ class LayoutBigImageLeft2Images extends HTMLElement {
 
 
                 <div class="col-12 col-sm-11 col-md-6    mb-3 ml-neg mx-neg-0">
-                  <div class="parallax" data-orientation="up" data-scale="1.1" > ${img1Tag} </div>
+                <div class="imgHolder">
+                  <div class="parallax" data-orientation="up" data-scale="1.1" data-delay="10"> ${img1Tag} </div>
+                </div>
                 </div>
 
 
@@ -27,11 +29,15 @@ class LayoutBigImageLeft2Images extends HTMLElement {
 
 
                         <div class="row">
-                          <div class="col-6 col-sm-12 col-md-6 ms-auto mb-3 "> 
+                          <div class="col-6 col-sm-12 col-md-6 ms-auto mb-3 ">
+                            <div class="imgHolder-sm">
                              <div class="parallax" data-orientation="left" data-scale="1.3" data-delay="2"> ${img2Tag} </div>
+                            </div>
                           </div>
                           <div class="col-6 col-sm-12 col-md-6 ms-auto mb-3 "> 
-                             <div class="parallax" data-orientation="right" data-scale="1.3" data-delay="3" > ${img3Tag} </div>
+                            <div class="imgHolder-sm">
+                             <div class="parallax" data-orientation="right" data-scale="1.3" data-delay="2" > ${img3Tag} </div>
+                            </div>
                           </div>
                         </div>
 
