@@ -40,7 +40,7 @@ class LayoutOne extends HTMLElement {
                 <div class="h3"> ${bullet1content} </div>
               </div>
               </div>
-              <div class="col-auto mb-5">
+              <div class="col-6 mb-5">
               <div class="animate__animated animate__delay-1s animate__slower animate-on-scroll" data-anim="animate__fadeInUp"> 
                 <div class="subHeading">${bullet2}  </div>
                 <div class="h3"> ${bullet2content} </div>

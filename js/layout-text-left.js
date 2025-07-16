@@ -14,7 +14,7 @@ class LayoutTextLeft extends HTMLElement {
       this.innerHTML = `
       <div class=" macComp ${colour}">
         <div class="row align-items-center section-h">
-          <div class="col-9 col-sm-7  me-auto text-start mb-3 ">
+          <div class="col-12 col-sm-7  me-auto text-start mb-3 ">
              <div class="parallax" data-overflow="true" data-orientation="up"> ${text} </div>
           </div>
            
