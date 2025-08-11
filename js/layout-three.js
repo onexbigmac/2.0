@@ -20,20 +20,20 @@ class LayoutThree extends HTMLElement {
     this.innerHTML = `
 <div class=" macComp ${colour}">
     <div class="row justify-content-between h6">
-          <div class="col-12 col-sm-6 mb-3 col-sm-auto">
+          <div class="col-12 col-sm-6 col-md-4 mb-3 col-sm-auto">
             <div class="animate__animated animate__delay-1s ani mate-on-scroll" data-anim="animate__fadeInUp"> 
                 <div class="subHeading mb-2">${bullet1content} </div>
                 <div> ${bullet1}</div>
             </div>
 
           </div>
-          <div class="col-12 col-sm-6 mb-3 col-sm-auto">
+          <div class="col-12 col-sm-6 col-md-4 mb-3 col-sm-auto">
             <div class="animate__anim ated animate__delay-2s ani mate-on-scroll" data-anim="animate__fadeInUp"> 
                 <div class="subHeading mb-2">${bullet2content}</div>
                 <div> ${bullet2}</div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 mb-3 col-sm-auto">
+          <div class="col-12 col-sm-6 col-md-4 mb-3 col-sm-auto">
             <div class="animate__anima ted animate__delay-3s ani mate-on-scroll" data-anim="animate__fadeInUp"> 
             <div class="subHeading mb-2">${bullet3content} </div>
             <div> ${bullet3}</div>
