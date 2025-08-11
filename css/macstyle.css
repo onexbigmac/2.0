@@ -83,10 +83,20 @@ h1, h2, h3, h4, h5, h6,
 
 }
 
+button.btn.btn-primary.w-100 {
+    background: background: var(--primary);
+    background: var(--primary);
+    font-family: Urbanist;
+}
+
 
 .img-fluid-inv {
     max-height: 100%;
     letter-spacing: -2px;
+}
+
+.macComp .img-fluid {
+    filter: drop-shadow(2px 4px 6px rgb(0 0 0 / 20%));
 }
 
 
