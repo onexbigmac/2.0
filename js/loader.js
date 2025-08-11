@@ -10,7 +10,9 @@ const layoutScripts = {
   'layout-big-image-left-2image': './layout-big-image-left-2image.js',
   'layout-big-image-right-2image': './layout-big-image-right-2image.js',  
   'layout-2up-image': './layout-2up-image.js' ,
-  'layout-Hud4':'./layout-hud4.js'
+  'layout-Hud4':'./layout-hud4.js',
+  'layout-text-left-image-detail': './layout-text-left-image-detail.js', 
+  'layout-text-left-image-2-third':'./layout-text-left-image-2-third.js'
     
 };
 
