@@ -75,12 +75,20 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
+ul.bullets li {
+    margin-bottom: 16px;
+}
+
 .bigText{
 
     font-size: 2.5rem;
     letter-spacing: -2px;
     line-height: 1.2;
 
+}
+
+.macComp.nobefore:before {
+    display: none;
 }
 
 button.btn.btn-primary.w-100 {
